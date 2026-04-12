@@ -29,37 +29,37 @@ Tecnologías utilizadas:
 
 El proyecto está estructurado de la siguiente manera:
  
-  delitos_etl/
-│
-├── config/
-│   └── settings.py
-│
-├── data/
-│   ├── raw/              # archivos Excel originales
-│   ├── processed/        # archivos limpios (opcional)
-│
-├── logs/
-│   └── etl.log
-│
-├── database/
-│   ├── create_table.py
-│   └── mysql_client.py
-│
-├── src/
-│   ├── extract.py
-│   ├── transform.py
-│   ├── load.py
-│
-├── pipelines/
-│   └── run_pipeline.py
-│
-├── dags/                 #  Airflow
-│   └── delitos_dag.py
-│
-├── main.py
-├── Dockerfile
-├── Readme.md
-└── requirements.txt
+    delitos_etl/
+      │
+      ├── config/
+      │   └── settings.py
+      │
+      ├── data/
+      │   ├── raw/              # archivos Excel originales
+      │   ├── processed/        # archivos limpios (opcional)
+      │
+      ├── logs/
+      │   └── etl.log
+      │
+      ├── database/
+      │   ├── create_table.py
+      │   └── mysql_client.py
+      │
+      ├── src/
+      │   ├── extract.py
+      │   ├── transform.py
+      │   ├── load.py
+      │
+      ├── pipelines/
+      │   └── run_pipeline.py
+      │
+      ├── dags/                 #  Airflow
+      │   └── delitos_dag.py
+      │
+      ├── main.py
+      ├── Dockerfile
+      ├── Readme.md
+      └── requirements.txt
 
 
  # 1.- Intalación de Python y otras dependencias
