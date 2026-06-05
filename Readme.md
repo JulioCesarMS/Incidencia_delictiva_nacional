@@ -27,12 +27,7 @@ La solución permite automatizar el procesamiento de múltiples archivos histór
 - [Docker](https://www.docker.com/)
 - [VScode](https://code.visualstudio.com/)
 
-# Requerimientos:
-- [Python 3.12.0](https://www.python.org/)
-- [MySQL](https://dev.mysql.com/downloads/workbench/)
-- [Git](https://git-scm.com/)
-- [Docker](https://www.docker.com/)
-- [VScode](https://code.visualstudio.com/)
+
 
 # Flujo 
 - Extracción de archivos históricos.
@@ -192,10 +187,10 @@ Una vez cargada la información se pueden realizar consultas
 
 # Posibles Análisis
 
-- ![Evolución temporal de delitos por municipio](https://rpubs.com/astrojcms/forecasting_homicides).
+- [Evolución temporal de delitos por municipio](https://rpubs.com/astrojcms/forecasting_homicides).
 - Delitos por entidad federativa.
 - Mapas de calor geográficos.
-- ![endencias históricas por tipo de delito.](https://rpubs.com/astrojcms/datos_incidencia_delictiva).
+- [endencias históricas por tipo de delito.](https://rpubs.com/astrojcms/datos_incidencia_delictiva).
 - Análisis espacial utilizando coordenadas geográficas.
 
 
