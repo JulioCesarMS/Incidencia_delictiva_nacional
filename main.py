@@ -1,4 +1,4 @@
-from pipelines.run_pipeline import run
+from src.pipelines.run_pipeline import run
 
 
 
