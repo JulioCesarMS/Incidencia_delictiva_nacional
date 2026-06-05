@@ -1,9 +1,9 @@
 [![My Skills](https://skillicons.dev/icons?i=py,html,css,git,mysql,vscode)](https://skillicons.dev)
 
-# 📁 **Project : Incidencia delictiva en México**
 
 ![Mapa](./figures/delitos.png)
 
+# 📁 **Incidencia delictiva en México**
 
 # Descripción
 
