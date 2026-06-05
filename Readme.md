@@ -98,7 +98,7 @@ Descargar e instalas todas herramientas en requerimientos.
 
 # Clonar el proyecto a una carpeta en escritorio
  
-- Crear una carpeta en escritorio p.e. "FinancialMarkets" <break> 
+- Crear una carpeta en escritorio p.e. "delitos_etl" <break> 
 - Click derecho en cualquier lugar dentro de la carpeta y seleccionar **"Git Bash Here"** <break> 
 - En la consola de Git ingtroducir siguiente comandos: <break> 
   ```bash
@@ -111,7 +111,7 @@ Descargar e instalas todas herramientas en requerimientos.
 
 # Crear archivo `.env`
 
-Crear en MySQL una conexión, con usuario, y contraseña, posteriormente una base llamada "financialmarkets". Con esa información  crear un archivo `.env` en la raíz del proyecto:
+Crear en MySQL una conexión, con usuario, y contraseña, posteriormente una base llamada "delitos". Con esa información  crear un archivo `.env` en la raíz del proyecto:
 
 ```env
 DB_HOST=host.docker.internal
