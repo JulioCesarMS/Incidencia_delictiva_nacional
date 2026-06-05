@@ -5,7 +5,7 @@
 ![Mapa](./figures/delitos.png)
 
 
-Descripción
+# Descripción
 
 Delitos ETL es un proyecto de ingeniería de datos desarrollado en Python para la extracción, transformación y carga (ETL) de información de incidencia delictiva municipal en México.
 
@@ -13,21 +13,19 @@ El proyecto integra datos históricos del Secretariado Ejecutivo del Sistema Nac
 
 La solución permite automatizar el procesamiento de múltiples archivos históricos, generar dimensiones analíticas y poblar tablas de hechos optimizadas para herramientas de Business Intelligence como Power BI, Tableau, Metabase o Apache Superset.
 
-
-Objetivos
+# Objetivos
 - Automatizar la carga de información histórica de delitos.
 - Integrar información geográfica municipal proveniente de INEGI.
 - Implementar un proceso ETL reproducible y escalable.
 - Construir un modelo dimensional para análisis estadístico y visualización.
 - Facilitar el análisis espacial y temporal de la incidencia delictiva en México.
 
-Requerimientos:
-- Python 
-- MySQL 
-- Docker
-- Git
-- Prefect
-
+# Requerimientos:
+- [Python 3.12.0](https://www.python.org/)
+- [MySQL](https://dev.mysql.com/downloads/workbench/)
+- [Git](https://git-scm.com/)
+- [Docker](https://www.docker.com/)
+- [VScode](https://code.visualstudio.com/)
 
 # Requerimientos:
 - [Python 3.12.0](https://www.python.org/)
@@ -45,7 +43,7 @@ Requerimientos:
 - Actualización incremental mediante claves únicas.
 - Registro de cargas y auditoría.
 
-#![Arquitectura](./figures/arquitectura_.png)
+![Arquitectura](./figures/arquitectura_.png)
 
  
 # Estructura del Proyecto
@@ -111,7 +109,7 @@ Descargar e instalas todas herramientas en requerimientos.
   ```bash
   git clone https://github.com/JulioCesarMS/Incidencia_delictiva_nacional.git
 
-  cd financialmarkets
+  cd delitos_etl
   ```
   - Esperar unos minutos a que descargue los archivos en la carpeta
   
@@ -123,7 +121,7 @@ Crear en MySQL una conexión, con usuario, y contraseña, posteriormente una bas
 ```env
 DB_HOST=host.docker.internal
 DB_PORT=3306
-DB_NAME=financialmarkets
+DB_NAME=delitos
 DB_USER= usuario raíz en MySQL
 DB_PASSWORD= contraseña para acceder a la conexión en MySQL
 ```
@@ -185,9 +183,19 @@ python orchestration/deploy.py
 
 # Consultas
 
-Una vez cargada la información se puede realizar consultas
+Una vez cargada la información se pueden realizar consultas
 
 
 ![Proyecto](./figures/consulta.png)
+
+
+
+# Posibles Análisis
+
+- ![Evolución temporal de delitos por municipio](https://rpubs.com/astrojcms/forecasting_homicides).
+- Delitos por entidad federativa.
+- Mapas de calor geográficos.
+- ![endencias históricas por tipo de delito.](https://rpubs.com/astrojcms/datos_incidencia_delictiva).
+- Análisis espacial utilizando coordenadas geográficas.
 
 
