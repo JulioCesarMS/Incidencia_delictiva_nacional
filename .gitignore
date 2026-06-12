@@ -1,0 +1,15 @@
+# Datos
+data/raw/*
+
+# Excel
+*.xlsx
+*.xls
+*.xlsm
+
+# Python
+__pycache__/
+*.pyc
+
+# Entornos
+venv/
+.env

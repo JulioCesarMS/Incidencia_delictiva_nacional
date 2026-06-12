@@ -1,7 +1,7 @@
 [![My Skills](https://skillicons.dev/icons?i=py,html,css,git,mysql,vscode)](https://skillicons.dev)
 
 
-![Mapa](./figures/delitos.png)
+![Mapa](./figures/ima01.png)
 
 # 📁 **Incidencia delictiva en México**
 
